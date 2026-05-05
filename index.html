@@ -19,9 +19,7 @@
         <a href="#products">Products</a>
         <a href="#about">About</a>
       </nav>
-      <button class="cart-btn" id="openCart" aria-label="Open cart">
-        🛒 <span class="cart-count" id="cartCount">0</span>
-      </button>
+      <a class="btn btn-primary btn-sm" href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener">DM to Order</a>
     </div>
   </header>
 
@@ -70,7 +68,7 @@
   <section id="products" class="section section-alt">
     <div class="container">
       <h2 class="section-title">Available Now</h2>
-      <p class="section-sub">Add items to your cart, then checkout securely via Stripe.</p>
+      <p class="section-sub">See something you like? DM <a href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener" style="color:var(--primary);">@Outdoor_salez</a> on Instagram to claim it.</p>
       <div class="products" id="productGrid"></div>
     </div>
   </section>
@@ -84,7 +82,7 @@
           <li>✔ North NJ pickup available</li>
           <li>✔ Shipping across the US</li>
           <li>✔ Honest condition descriptions</li>
-          <li>✔ Secure checkout via Stripe</li>
+          <li>✔ Easy ordering — just DM us on Instagram</li>
         </ul>
       </div>
       <div class="stats">
@@ -108,21 +106,6 @@
       <p class="muted small">© <span id="year"></span> Outdoor Salez. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- Cart drawer -->
-  <div class="drawer-backdrop" id="drawerBackdrop"></div>
-  <aside class="drawer" id="drawer" aria-hidden="true">
-    <div class="drawer-head">
-      <h3>Your Cart</h3>
-      <button class="icon-btn" id="closeCart" aria-label="Close cart">✕</button>
-    </div>
-    <div class="drawer-body" id="cartItems"></div>
-    <div class="drawer-foot">
-      <div class="total-row"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
-      <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>Checkout with Stripe</button>
-      <p class="muted small-note">Secure payment processed by Stripe.</p>
-    </div>
-  </aside>
 
   <script src="app.js"></script>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
