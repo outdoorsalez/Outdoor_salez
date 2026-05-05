@@ -1,26 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outdoor Salez — NJ Fishing Gear Resale | Rods, Reels & Tackle</title>
+  <meta name="description" content="North New Jersey outdoor resale shop. Quality used & new fishing soft plastics, hard plastics, rods, and reels. DM @Outdoor_salez on Instagram." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">OUTDOOR <span>SALEZ</span></a>
+      <nav>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary" href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener">DM to Buy</a>
+    </div>
+  </header>
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="badge">📍 Based in North New Jersey</span>
+      <h1>Tackle worth chasing.<br/>Prices worth biting.</h1>
+      <p class="lead">Your local outdoor resale spot for fishing soft plastics, hard baits, rods, and reels. Curated gear, fair prices, fast pickup or shipping.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener">Shop on Instagram</a>
+        <a class="btn btn-ghost" href="#shop">Browse Categories</a>
+      </div>
+    </div>
+  </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <section id="shop" class="section">
+    <div class="container">
+      <h2 class="section-title">What We Sell</h2>
+      <p class="section-sub">Rotating inventory of fresh and saltwater tackle. New drops weekly on Instagram.</p>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+      <div class="grid">
+        <article class="card">
+          <div class="card-img" style="background-image:linear-gradient(135deg,#1f6f54,#0c3b2e);"><span class="emoji">🪱</span></div>
+          <h3>Soft Plastics</h3>
+          <p>Senkos, swimbaits, craws, paddle tails, jerk shads — packs and singles.</p>
+        </article>
+        <article class="card">
+          <div class="card-img" style="background-image:linear-gradient(135deg,#c0531c,#6b2a0c);"><span class="emoji">🎣</span></div>
+          <h3>Hard Baits</h3>
+          <p>Crankbaits, jerkbaits, topwater, spinnerbaits and lipless from top brands.</p>
+        </article>
+        <article class="card">
+          <div class="card-img" style="background-image:linear-gradient(135deg,#2a4d8f,#0f223f);"><span class="emoji">🎯</span></div>
+          <h3>Fishing Rods</h3>
+          <p>Spinning and casting rods — bass, surf, inshore. Used and like-new.</p>
+        </article>
+        <article class="card">
+          <div class="card-img" style="background-image:linear-gradient(135deg,#4a3c2a,#1d1610);"><span class="emoji">🌀</span></div>
+          <h3>Reels</h3>
+          <p>Spinning, baitcasting, and conventional reels — cleaned and tested.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-alt">
+    <div class="container two-col">
+      <div>
+        <h2 class="section-title left">Local. Honest. Outdoor.</h2>
+        <p>Outdoor Salez is a North New Jersey based resale shop run by anglers, for anglers. We pick up overstock, lightly used, and new tackle from local fishermen and pass the savings on to you.</p>
+        <ul class="checklist">
+          <li>✔ North NJ pickup available</li>
+          <li>✔ Shipping across the US</li>
+          <li>✔ Honest condition descriptions</li>
+          <li>✔ DM to negotiate or bundle</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <div class="stat"><strong>500+</strong><span>Items sold</span></div>
+        <div class="stat"><strong>NJ</strong><span>Local pickup</span></div>
+        <div class="stat"><strong>24h</strong><span>DM response</span></div>
+        <div class="stat"><strong>100%</strong><span>Angler owned</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section cta">
+    <div class="container cta-inner">
+      <h2>Ready to gear up?</h2>
+      <p>All sales and inventory drops happen on Instagram. Slide into the DMs.</p>
+      <a class="btn btn-primary btn-lg" href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener">@Outdoor_salez</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="logo">OUTDOOR <span>SALEZ</span></div>
+        <p class="muted">North New Jersey · Fishing tackle resale</p>
+      </div>
+      <div>
+        <a href="https://instagram.com/Outdoor_salez" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p class="muted small">© <span id="year"></span> Outdoor Salez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>
