@@ -2,90 +2,99 @@
 // EDIT YOUR PRODUCTS HERE
 // ------------------------------------------------------------
 // Each product has:
-//   id          unique short id (lowercase, no spaces)
-//   name        what shows on the card
-//   category    "Soft Plastics" | "Hard Baits" | "Rods" | "Reels"
-//   price       number, e.g. 12.99
-//   image       path to your photo in the /images folder
-//               (leave as "" to show the emoji placeholder)
-//   emoji       fallback icon if no image
-//   color       fallback gradient if no image
-//
-// To add a new product, copy one block and change the values.
-// To remove a product, delete its block.
+//   id, name, category, price, image, emoji, color
+// Set image: "" to use the emoji/color placeholder.
 // ============================================================
 
 const PRODUCTS = [
   {
-    id: "senko-pack",
-    name: "Yamamoto Senko 5\" — 10 pack",
+    id: "zoom-collection",
+    name: "Zoom Bait Co. Assorted Trailers & Worms (11-pack lot)",
     category: "Soft Plastics",
-    price: 8.99,
-    image: "images/senko.jpg",
+    price: 39.99,
+    image: "images/zoom-collection.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#1f6f54,#0c3b2e)"
   },
   {
-    id: "paddle-tail",
-    name: "Keitech Swing Impact 4.5\"",
+    id: "yamamoto-senko-mixed",
+    name: "Gary Yamamoto Custom Baits Senko",
     category: "Soft Plastics",
-    price: 7.49,
-    image: "images/keitech.jpg",
+    price: 8.99,
+    image: "images/yamamoto-senko.jpg",
     emoji: "🐟",
     color: "linear-gradient(135deg,#2a8f6b,#0c3b2e)"
   },
   {
-    id: "jerkbait",
-    name: "Megabass Vision 110 Jerkbait",
-    category: "Hard Baits",
-    price: 24.99,
-    image: "images/vision110.jpg",
-    emoji: "🎣",
-    color: "linear-gradient(135deg,#c0531c,#6b2a0c)"
-  },
-  {
-    id: "topwater-frog",
-    name: "Spro Bronzeye Frog 65",
-    category: "Hard Baits",
-    price: 11.99,
-    image: "images/frog.jpg",
-    emoji: "🐸",
+    id: "strikeking-watermelon",
+    name: "Strike King Shim-E-Stick — Watermelon Black Flake (7 pk)",
+    category: "Soft Plastics",
+    price: 6.99,
+    image: "images/strikeking-watermelon.jpg",
+    emoji: "🪱",
     color: "linear-gradient(135deg,#5e8c1a,#2c4a08)"
   },
   {
-    id: "casting-rod",
-    name: "St. Croix Mojo Bass 7'1\" MH",
-    category: "Rods",
-    price: 149.00,
-    image: "images/mojo-bass.jpg",
-    emoji: "🎯",
-    color: "linear-gradient(135deg,#2a4d8f,#0f223f)"
+    id: "strikeking-greenpumpkin",
+    name: "Strike King Shim-E-Stick — Green Pumpkin (7 pk)",
+    category: "Soft Plastics",
+    price: 6.99,
+    image: "images/strikeking-greenpumpkin.jpg",
+    emoji: "🪱",
+    color: "linear-gradient(135deg,#4a6a1a,#1f2e08)"
   },
   {
-    id: "spinning-rod",
-    name: "Shimano SLX 7'2\" Spinning",
-    category: "Rods",
-    price: 89.00,
-    image: "images/slx-rod.jpg",
-    emoji: "🪝",
-    color: "linear-gradient(135deg,#1c4a8f,#0a1f3f)"
+    id: "yum-dinger-morningdawn",
+    name: "YUM 5\" Dinger — Morning Dawn",
+    category: "Soft Plastics",
+    price: 5.49,
+    image: "images/yum-dinger-morningdawn.jpg",
+    emoji: "🐛",
+    color: "linear-gradient(135deg,#7a3a4a,#3a1620)"
   },
   {
-    id: "baitcaster",
-    name: "Shimano SLX DC Baitcaster",
-    category: "Reels",
-    price: 179.00,
-    image: "images/slx-dc.jpg",
-    emoji: "🌀",
-    color: "linear-gradient(135deg,#4a3c2a,#1d1610)"
+    id: "yum-dinger-tinfoil",
+    name: "YUM 5\" Dinger — Tin Foil (8 pk)",
+    category: "Soft Plastics",
+    price: 5.49,
+    image: "images/yum-dinger-tinfoil.jpg",
+    emoji: "✨",
+    color: "linear-gradient(135deg,#5a5a6a,#2a2a36)"
   },
   {
-    id: "spinning-reel",
-    name: "Daiwa BG 3000 Spinning Reel",
-    category: "Reels",
-    price: 99.00,
-    image: "images/daiwa-bg.jpg",
-    emoji: "⚙️",
-    color: "linear-gradient(135deg,#5c4a30,#2a1f12)"
+    id: "yamasenko-smoke",
+    name: "Yamamoto 5\" Yamasenko — Smoke w/ Black Hologram (10 pk)",
+    category: "Soft Plastics",
+    price: 9.49,
+    image: "images/yamasenko-smoke.jpg",
+    emoji: "🐟",
+    color: "linear-gradient(135deg,#2a8f6b,#0c3b2e)"
+  },
+  {
+    id: "wackyworm-smoke",
+    name: "Wacky Worm Inc. 5.5\" Wacko — Smoke Hologram Shad",
+    category: "Soft Plastics",
+    price: 7.99,
+    image: "images/wackyworm-smoke.jpg",
+    emoji: "🪱",
+    color: "linear-gradient(135deg,#888,#444)"
+  },
+  {
+    id: "bigbite-trickstick",
+    name: "Big Bite Baits 5\" Trick Stick — Watermelon (25 pk)",
+    category: "Soft Plastics",
+    price: 8.99,
+    image: "images/bigbite-trickstick.jpg",
+    emoji: "🦈",
+    color: "linear-gradient(135deg,#c0531c,#6b2a0c)"
+  },
+  {
+    id: "yum-dinger-eldersmagic",
+    name: "YUM 5\" Dinger — Elders Magic (30 pk)",
+    category: "Soft Plastics",
+    price: 12.99,
+    image: "images/yum-dinger-eldersmagic.jpg",
+    emoji: "🌌",
+    color: "linear-gradient(135deg,#1a3a4a,#08161f)"
   }
 ];
