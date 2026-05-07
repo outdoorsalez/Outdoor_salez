@@ -146,7 +146,7 @@ const PRODUCTS = [
     id: "lews-mach-crush",
     name: "Lew's Mach Crush Baitcasting Reel (Left-Hand Retrieve)",
     category: "Reels",
-    price: 89.99,
+    price: 30.00,
     image: "images/lews-mach-crush.jpg",
     emoji: "🎣",
     color: "linear-gradient(135deg,#e8801c,#3a1a08)"
