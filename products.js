@@ -29,7 +29,7 @@ const PRODUCTS = [
     id: "strikeking-watermelon",
     name: "Strike King Shim-E-Stick — Watermelon Black Flake (7 pk)",
     category: "Soft Plastics",
-    price: 6.99,
+    price: 5.00,
     image: "images/strikeking-watermelon.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#5e8c1a,#2c4a08)"
@@ -38,7 +38,7 @@ const PRODUCTS = [
     id: "strikeking-greenpumpkin",
     name: "Strike King Shim-E-Stick — Green Pumpkin (7 pk)",
     category: "Soft Plastics",
-    price: 6.99,
+    price: 5.00,
     image: "images/strikeking-greenpumpkin.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#4a6a1a,#1f2e08)"
@@ -101,7 +101,7 @@ const PRODUCTS = [
     id: "berkley-powerbait",
     name: "Berkley PowerBait Worms",
     category: "Soft Plastics",
-    price: 6.99,
+    price: 5.00,
     image: "images/berkley-powerbait.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#e8801c,#7a3a08)"
