@@ -74,7 +74,7 @@ const PRODUCTS = [
     id: "wackyworm-smoke",
     name: "Wacky Worm Inc. 5.5\" Wacko — Smoke Hologram Shad",
     category: "Soft Plastics",
-    price: 7.99,
+    price: 15.00,
     image: "images/wackyworm-smoke.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#888,#444)"
@@ -110,7 +110,7 @@ const PRODUCTS = [
     id: "wackyworm-bluegill",
     name: "Wacky Worm Inc. 5\" Wacko — Bluegill (Pork Fat, Heavily Salted)",
     category: "Soft Plastics",
-    price: 7.99,
+    price: 15.00,
     image: "images/wackyworm-bluegill.jpg",
     emoji: "🐟",
     color: "linear-gradient(135deg,#3a5a6a,#16242e)"
