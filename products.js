@@ -119,7 +119,7 @@ const PRODUCTS = [
     id: "slider-shad",
     name: "Charlie Brewer's Slider 5\" Shad",
     category: "Soft Plastics",
-    price: 6.49,
+    price: 5.00,
     image: "images/slider-shad.jpg",
     emoji: "🐟",
     color: "linear-gradient(135deg,#b01c1c,#5a0808)"
