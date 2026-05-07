@@ -92,7 +92,7 @@ const PRODUCTS = [
     id: "yum-dinger-eldersmagic",
     name: "YUM 5\" Dinger — Elders Magic (30 pk)",
     category: "Soft Plastics",
-    price: 12.99,
+    price: 10.00,
     image: "images/yum-dinger-eldersmagic.jpg",
     emoji: "🌌",
     color: "linear-gradient(135deg,#1a3a4a,#08161f)"
