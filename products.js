@@ -11,7 +11,7 @@ const PRODUCTS = [
     id: "zoom-collection",
     name: "Zoom Bait Co. Assorted Trailers & Worms (11-pack lot)",
     category: "Soft Plastics",
-    price: 39.99,
+    price: 30.00,
     image: "images/zoom-collection.jpg",
     emoji: "🪱",
     color: "linear-gradient(135deg,#1f6f54,#0c3b2e)"
