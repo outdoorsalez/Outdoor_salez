@@ -20,7 +20,7 @@ const PRODUCTS = [
     id: "yamamoto-senko-mixed",
     name: "Gary Yamamoto Custom Baits Senko",
     category: "Soft Plastics",
-    price: 10.00,
+    price: 6.00,
     image: "images/yamamoto-senko.jpg",
     emoji: "🐟",
     color: "linear-gradient(135deg,#2a8f6b,#0c3b2e)"
@@ -83,7 +83,7 @@ const PRODUCTS = [
     id: "bigbite-trickstick",
     name: "Big Bite Baits 5\" Trick Stick — Watermelon (25 pk)",
     category: "Soft Plastics",
-    price: 6.00,
+    price: 10.00,
     image: "images/bigbite-trickstick.jpg",
     emoji: "🦈",
     color: "linear-gradient(135deg,#c0531c,#6b2a0c)"
