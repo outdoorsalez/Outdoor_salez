@@ -47,7 +47,7 @@ const PRODUCTS = [
     id: "yum-dinger-morningdawn",
     name: "YUM 5\" Dinger — Morning Dawn",
     category: "Soft Plastics",
-    price: 5.49,
+    price: 4.00,
     image: "images/yum-dinger-morningdawn.jpg",
     emoji: "🐛",
     color: "linear-gradient(135deg,#7a3a4a,#3a1620)"
@@ -56,7 +56,7 @@ const PRODUCTS = [
     id: "yum-dinger-tinfoil",
     name: "YUM 5\" Dinger — Tin Foil (8 pk)",
     category: "Soft Plastics",
-    price: 5.49,
+    price: 4.00,
     image: "images/yum-dinger-tinfoil.jpg",
     emoji: "✨",
     color: "linear-gradient(135deg,#5a5a6a,#2a2a36)"
