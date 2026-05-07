@@ -96,5 +96,59 @@ const PRODUCTS = [
     image: "images/yum-dinger-eldersmagic.jpg",
     emoji: "🌌",
     color: "linear-gradient(135deg,#1a3a4a,#08161f)"
+  },
+  {
+    id: "berkley-powerbait",
+    name: "Berkley PowerBait Worms",
+    category: "Soft Plastics",
+    price: 6.99,
+    image: "images/berkley-powerbait.jpg",
+    emoji: "🪱",
+    color: "linear-gradient(135deg,#e8801c,#7a3a08)"
+  },
+  {
+    id: "wackyworm-bluegill",
+    name: "Wacky Worm Inc. 5\" Wacko — Bluegill (Pork Fat, Heavily Salted)",
+    category: "Soft Plastics",
+    price: 7.99,
+    image: "images/wackyworm-bluegill.jpg",
+    emoji: "🐟",
+    color: "linear-gradient(135deg,#3a5a6a,#16242e)"
+  },
+  {
+    id: "slider-shad",
+    name: "Charlie Brewer's Slider 5\" Shad",
+    category: "Soft Plastics",
+    price: 6.49,
+    image: "images/slider-shad.jpg",
+    emoji: "🐟",
+    color: "linear-gradient(135deg,#b01c1c,#5a0808)"
+  },
+  {
+    id: "chatterbait-blue",
+    name: "ChatterBait EZSkirt 3/8 oz — Blue",
+    category: "Hard Baits",
+    price: 8.99,
+    image: "images/chatterbait-blue.jpg",
+    emoji: "⚡",
+    color: "linear-gradient(135deg,#1c3ab0,#0a1a5a)"
+  },
+  {
+    id: "chatterbait-chartreuse",
+    name: "ChatterBait EZSkirt 3/8 oz — Chartreuse",
+    category: "Hard Baits",
+    price: 8.99,
+    image: "images/chatterbait-chartreuse.jpg",
+    emoji: "⚡",
+    color: "linear-gradient(135deg,#c8d81c,#5a6a08)"
+  },
+  {
+    id: "lews-mach-crush",
+    name: "Lew's Mach Crush Baitcasting Reel (Left-Hand Retrieve)",
+    category: "Reels",
+    price: 89.99,
+    image: "images/lews-mach-crush.jpg",
+    emoji: "🎣",
+    color: "linear-gradient(135deg,#e8801c,#3a1a08)"
   }
 ];
